@@ -19,11 +19,13 @@ form{
     align-items:center ;
 }
 
+
 form input, form button{
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
     background:white;
+    
 }
 
 form button{
@@ -90,5 +92,46 @@ form button:hover{
 .fall{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
-
 }
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+select{
+    color: #f356de ;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.select::after{
+    content:"\25BC";
+    position: absolute;
+    background: #f356de;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.select:hover::after{
+    background: white;
+    color: #ebc139;
+}
+
+
+
+
+
+
+
+
