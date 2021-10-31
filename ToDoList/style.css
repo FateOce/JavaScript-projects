@@ -163,3 +163,10 @@ img{
     
 }
 
+#note{
+    display: flex;
+    height: 60px;
+    margin-left: 30px; 
+     
+}
+

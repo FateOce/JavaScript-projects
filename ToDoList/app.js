@@ -151,5 +151,36 @@ function removeLocalTodos(todo){
   localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-img
-{ onclick = window.prompt("Hello");}
+
+
+
+function note(){
+    alert("Welcome 🌼");
+    alert("Enjoy this page! 😊")
+}
+
+
+
+//Funny prompt 
+
+/*function note(){
+    if (!confirm('Hello! Hope you have a nice day!')) {} 
+
+      {
+        do{
+            var creditNum = window.prompt("Can I please have your credit card details");
+        }while(creditNum == "")
+        alert('Please')
+        do{
+            var creditNum = window.prompt("Can I please have your credit card details");
+        }while(creditNum == "")
+        alert('Prettyyy please 🌼')
+        do{
+            var creditNum = window.prompt("Can I please have your credit card details");
+        }while(creditNum == "")
+        alert("😥")
+        
+      }
+      
+    
+}*/
